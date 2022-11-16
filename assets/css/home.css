@@ -52,6 +52,15 @@
   padding: 1rem 0;
   width: 100%;
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 2rem;
+}
+.grid img {
+  width: 100%;
+  height: auto;
+}
 @media only screen and (min-width: 992px) {
   body {
     position: relative;
